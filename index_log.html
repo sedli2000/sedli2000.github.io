@@ -1,11 +1,8 @@
-<html><meta name="viewport" content="width=device-width, initial-scale=1.0"><head><h3>04/06/2020 02:40:02</h3></head><body><h2>cald</h2><br>Wed Jun  3 18:35:23 2020 caldaia nessuna_risposta
-<br>Wed Jun  3 18:35:55 2020 caldaia nessuna_risposta
-<br>Wed Jun  3 18:36:23 2020 caldaia nessuna_risposta
-<br>Wed Jun  3 18:36:54 2020 caldaia nessuna_risposta
-<br>Wed Jun  3 18:40:21 2020 caldaia bad_crc  ff0204000000000000f06a894180869941f06a894103
-<br><h2>cont</h2><br><h2>ener</h2><br>Wed Jun  3 18:15:05 2020 energia nessuna_risposta
-<br>Wed Jun  3 18:20:04 2020 energia nessuna_risposta
-<br>Wed Jun  3 18:25:04 2020 energia nessuna_risposta
-<br>Wed Jun  3 18:30:04 2020 energia nessuna_risposta
-<br>Wed Jun  3 18:35:05 2020 energia nessuna_risposta
-<br></body></html>
+<html><meta name="viewport" content="width=device-width, initial-scale=1.0"><head><h3>05/06/2020 02:40:03</h3></head><body><h2>cald</h2><br>Thu Jun  4 00:04:23 2020 caldaia nessuna_risposta
+<br>Thu Jun  4 11:28:23 2020 caldaia bad_crc  04000000000000002c7f41a09c8641002c7f410356
+<br>Thu Jun  4 21:34:53 2020 caldaia nessuna_risposta
+<br><h2>cont</h2><br>Traceback (most recent call last):
+<br>  File "/home/pogo/script/Contatori_pao.py", line 45, in <module>
+<br>    if (crc8(alfa[2:8].decode("hex")) == int(alfa[10:12],16)):
+<br>ValueError: invalid literal for int() with base 16: ''
+<br><h2>ener</h2><br></body></html>
